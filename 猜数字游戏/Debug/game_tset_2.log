@@ -1,0 +1,6 @@
+﻿  test.c
+  game.c
+  正在生成代码...
+  LINK : 没有找到 E:\c-code\game_tset_2\Debug\game_tset_2.exe 或上一个增量链接没有生成它；正在执行完全链接
+  game_tset_2.vcxproj -> E:\c-code\game_tset_2\Debug\game_tset_2.exe
+  game_tset_2.vcxproj -> E:\c-code\game_tset_2\Debug\game_tset_2.pdb (Partial PDB)
