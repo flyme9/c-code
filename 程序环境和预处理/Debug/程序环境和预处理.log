@@ -1,0 +1,4 @@
+﻿  test.c
+e:\c语言\程序环境和预处理\test.c(108): warning C4013: “unix_version_option1”未定义；假设外部返回 int
+test.obj : error LNK2019: 无法解析的外部符号 _unix_version_option1，该符号在函数 _main 中被引用
+E:\C语言\程序环境和预处理\Debug\程序环境和预处理.exe : fatal error LNK1120: 1 个无法解析的外部命令
