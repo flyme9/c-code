@@ -1,7 +1,0 @@
-﻿  main.c
-  game.c
-  正在生成代码...
-  LINK : 没有找到 E:\c-code\game_test_3\Debug\扫雷.exe 或上一个增量链接没有生成它；正在执行完全链接
-game.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:LBR”规范)
-  扫雷.vcxproj -> E:\c-code\game_test_3\Debug\扫雷.exe
-  扫雷.vcxproj -> E:\c-code\game_test_3\Debug\扫雷.pdb (Partial PDB)
