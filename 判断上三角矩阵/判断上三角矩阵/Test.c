@@ -2,26 +2,27 @@
 #include<stdio.h>
 int main()
 {
-	int m, a[10][10], i, j, c = 0, n = 0;
-	scanf("%d", &m);
-	for (i = 0; i<m; i++)
+	int n, count = 0, sum = 0;
+	scanf("%d", &n);
+	int arr[10][10];
+	for (int i = 0; i<n; i++)
 	{
-		for (j = 0; j<m; j++)
-			scanf("%d", &a[i][j]);
-	}
-	for (i = 0; i<m; i++)
-	{
-		for (j = 0; j<i; j++)
+		for (int j = 0; j<n; j++)
 		{
-			if (a[i][j] == 0)
-				c++;
+			scanf("%d", &arr[i][j]);
 		}
 	}
-	for (i = 1; i<m; i++)
+	for (int i = 0; i<n; i++)
 	{
-		n += i;
+		for (int j = 0; j<n; j++)
+		{
+			if (arr[i][j] == 0)
+			{
+				count++;
+			}
+		}
 	}
-	if (c == n)
+	if (count == (n*(n - 1)) / 2)
 		printf("YES\n");
 	else
 		printf("NO\n");
